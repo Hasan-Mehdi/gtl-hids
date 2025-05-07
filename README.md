@@ -16,17 +16,13 @@ Our approach enhances network intrusion detection by converting tabular network 
 
 GTL-HIDS takes a novel approach to intrusion detection by converting network flow data into language-friendly representations and leveraging the pattern recognition abilities of finetuned LLM embeddings.
 
-### Neural Network Design
+Our system uses a streamlined architecture for effective threat detection:
 
-The system consists of three main components:
+1. **Data Transformation Module**: Converts network flows into semantic text representations.
 
-1. **Data Transformation Module**: Converts network traffic data into optimized text representations that capture the semantic meaning of network flows.
+2. **Embedding Generation**: A finetuned LLaMA-3 8B model processes text representations to generate rich contextual embeddings that capture network behavior patterns.
 
-2. **LLM Embedding Layer**: Uses a finetuned LLaMA model to generate rich, contextual embeddings from the text representations.
-
-3. **Neural Classification Network**: A specialized neural network trained on these embeddings to classify network traffic as benign or malicious.
-
-The system is designed to recognize patterns that traditional detection systems might miss, particularly in the case of zero-day attacks that don't match known signatures.
+3. **Neural Classification Network**: A specialized neural network trained on these LLaMA embeddings to classify traffic as benign or malicious, enabling detection of both known patterns and zero-day attacks.
 
 ## Implementation Details
 
