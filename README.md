@@ -1,5 +1,3 @@
-I'll create a comprehensive README.md for this project based on the documents you've provided.
-
 # GTL-HIDS: Generative Tabular Learning-Enhanced Hybrid Intrusion Detection System
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
