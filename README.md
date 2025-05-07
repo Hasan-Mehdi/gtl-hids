@@ -24,20 +24,6 @@ Our system uses a streamlined architecture for effective threat detection:
 
 3. **Neural Classification Network**: A specialized neural network trained on these LLaMA embeddings to classify traffic as benign or malicious, enabling detection of both known patterns and zero-day attacks.
 
-## Implementation Details
-
-Our GTL-HIDS implementation utilizes a finetuned LLaMA model to generate embeddings from network flow data. These embeddings capture both the statistical properties of the network traffic and the contextual understanding provided by the language model.
-
-We use a custom neural network architecture that processes these embeddings to identify malicious patterns. The network is implemented using PyTorch and optimized for both accuracy and inference speed.
-
-### Key Components
-
-- **Text Representation Generator**: Converts network flow data into descriptive text using carefully designed templates that highlight security-relevant features.
-
-- **Embedding Generator**: Uses LLaMA to generate rich vector representations of the textual network descriptions.
-
-- **Neural Classifier**: A multi-layer neural network that processes these embeddings to make final classification decisions.
-
 ## Dataset
 
 We use the CIC-IDS2017 dataset, which is a temporal-based network traffic dataset containing 5 days of activity (Monday-Friday) with diverse attacks in a realistic network topology.
