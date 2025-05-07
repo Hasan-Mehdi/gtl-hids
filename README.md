@@ -62,19 +62,6 @@ Traditional IDS systems rely on fixed rules or statistical patterns that can be 
 - Develop explainable AI components to help security analysts understand detection decisions
 - Expand to additional network protocols and environments
 
-## Citation
-
-If you use GTL-HIDS in your research, please cite our work:
-
-```
-@inproceedings{GTL-HIDS2025,
-  title={Generative Tabular Learning-Enhanced Intrusion Detection System},
-  author={Nair, Vaishak and Varaganti, Basanth and Mehdi, Hasan and Alam, Tanvirul and Rastogi, Nidhi},
-  booktitle={Proceedings of the International Conference on Software Engineering},
-  year={2025}
-}
-```
-
 ## Acknowledgments
 
 - Rochester Institute of Technology
