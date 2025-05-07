@@ -47,7 +47,7 @@ The CICIDS2017 dataset contains benign and the most up-to-date common attacks, w
 
 ### Embeddings:
 
-https://huggingface.co/datasets/Hmehdi515/gtl-hids-embeddings
+[Hmehdi515/gtl-hids-embeddings](https://huggingface.co/datasets/Hmehdi515/gtl-hids-embeddings)
 
 ## Advantages of Our Approach
 
