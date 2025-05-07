@@ -57,6 +57,11 @@ The CICIDS2017 dataset contains benign and the most up-to-date common attacks, w
 - Botnet
 - Port Scanning
 
+### Finetuned Models:
+
+8B_Finetuned_DatasetA : Hmehdi515/gtl-hids-binary-A
+8B_Finetuned_DatasetB : Hmehdi515/gtl-hids-binary-B
+
 ## Advantages of Our Approach
 
 Our neural network approach leverages the rich understanding of language models while providing the speed and efficiency needed for real-time security applications. By using embeddings from a finetuned LLaMA model, our system can:
